@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=a0ek3hWkSU8
+
+0:00 - Hi, this is just a quick video to demo how you change your theme for a Hugo Apparo site. So what I'm showing you here is a site where theme is left blank. If you'd like to change that to use one of the built-in themes, you'd open up your config.tomal file, which looks something like this. And in that file, you'll scroll down to about line 30, where the params start. And then past that, you go a little ways more.
+0:29 - down to where it says use a built-in color theme. You can see that there's several options there and they go inside quotes to set your theme value. So let's change that. It's empty right now and let's see how the site changes. So first up, I'll try forest. Next, grayscale.
+1:01 - Peach, plum, poppy, sky, violet, and the last one.
+1:28 - is water. So how I changed that theme so quickly was I was using the blog down surf site add-in and viewing it locally. And when I changed that single line in my config.toml file and I hit save, library load kicks in and my site preview updates. So what we ended up changing was the single line in our config.toml file. We ended up with water but pick your favorite.

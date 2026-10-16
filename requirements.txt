@@ -1,0 +1,3 @@
+pixeltable[serve]
+openai-whisper
+yt-dlp

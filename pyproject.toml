@@ -1,0 +1,15 @@
+[project]
+name = "mind-the-tube"
+version = "0.1.0"
+description = "Silence-split local Whisper chapters for a YouTube URL or an uploaded video, hosted on Pixeltable Cloud."
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "pixeltable[serve]",
+    "openai-whisper",
+    "yt-dlp",
+]
+
+[[tool.pixeltable.database]]
+# The local database. vars supply the values of the config vars a schema declares; a hosted
+# database is a second entry, named by its uri.
+# vars.media_dest = 's3://bucket/prefix'
